@@ -1,0 +1,74 @@
+[
+  {
+    "dataset": "2wiki",
+    "method": "idf_m3_head180_w8",
+    "K": "2",
+    "questions": "12376",
+    "strict_valid_n": "12376",
+    "support_complete_n": "2201"
+  },
+  {
+    "dataset": "2wiki",
+    "method": "no_second_branch",
+    "K": "2",
+    "questions": "12376",
+    "strict_valid_n": "12376",
+    "support_complete_n": "2036"
+  },
+  {
+    "dataset": "2wiki",
+    "method": "hybrid_rrf",
+    "K": "2",
+    "questions": "12376",
+    "strict_valid_n": "12376",
+    "support_complete_n": "2901"
+  },
+  {
+    "dataset": "hotpotqa",
+    "method": "idf_m3_head180_w8",
+    "K": "2",
+    "questions": "7205",
+    "strict_valid_n": "7204",
+    "support_complete_n": "2430"
+  },
+  {
+    "dataset": "hotpotqa",
+    "method": "no_second_branch",
+    "K": "2",
+    "questions": "7205",
+    "strict_valid_n": "7204",
+    "support_complete_n": "2112"
+  },
+  {
+    "dataset": "hotpotqa",
+    "method": "hybrid_rrf",
+    "K": "2",
+    "questions": "7205",
+    "strict_valid_n": "7204",
+    "support_complete_n": "2931"
+  },
+  {
+    "dataset": "musique",
+    "method": "idf_m3_head180_w8",
+    "K": "2",
+    "questions": "2311",
+    "strict_valid_n": "2311",
+    "support_complete_n": "129"
+  },
+  {
+    "dataset": "musique",
+    "method": "no_second_branch",
+    "K": "2",
+    "questions": "2311",
+    "strict_valid_n": "2311",
+    "support_complete_n": "134"
+  },
+  {
+    "dataset": "musique",
+    "method": "hybrid_rrf",
+    "K": "2",
+    "questions": "2311",
+    "strict_valid_n": "2311",
+    "support_complete_n": "148"
+  }
+]

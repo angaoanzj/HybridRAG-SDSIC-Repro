@@ -1,0 +1,15 @@
+{
+  ".gitignore": "8900e65b711aa1ccfb0ffbeeec877fa0c61138432f1272b67b8ac8687980678c",
+  "README.md": "09551910fe0315e73b4aa93ee8be2da15497d9ae9ddc485218505d8626a264fc",
+  "data/idf_expected.json": "5fae41e8c7a74e8bc9e289a07c8521879242666da0ae5407e2859bf56f5b779c",
+  "data/idf_f2_records.jsonl.gz": "7b705ed91248feb5214cb906baaff49112e0d56b8946b64bc10f504c4dd0e73d",
+  "data/multiround_expected.json": "ef384e7138f267186ebbe530aae6fa7d0ae137c4683f6fcbd97c4f08a1379379",
+  "data/multiround_protocol.json": "e95f68d66d53caacd4006bb7078dfc365a2260b7d5659e7d708d974c28f51117",
+  "data/multiround_quality.jsonl.gz": "d662dee9b2409acb1a8bfdaec88bd5302e583aa925c5f6ffbfa7d133cc67dd8e",
+  "data/musique_sampling.json": "0f16f36ff993ea52107cd685bfe41243868f291ebdfccbdb9b81dc906beff149",
+  "data/original_completion.json": "8171acb3a3257e7aa7c4c0ead7c83081ec88498ca08124c9676fca583b3613c7",
+  "data/prior_raw_check.json": "0e69783f0a0bf6a5b04d3897927ec1f6e4d72f944ad8e71b371e9e46f3e4b5dd",
+  "data/source_provenance.json": "3f4260124828eb91fa3c696dc8dca76c963af640ba12ddff95c7dd590026cb8a",
+  "data/statistics_inputs.json": "ade51c78581c9778d063b3a69d4bee28138705a7269e811dbcde047619721aba",
+  "verify.py": "b4b951505ad2a71fea048c7d6b43d44809773bb5fe4da4fe2b331ba03cad008e"
+}

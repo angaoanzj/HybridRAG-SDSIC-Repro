@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED",
+  "questions": 2417,
+  "arms": 9,
+  "rows": 21753,
+  "protocol_sha256": "d0966667fd0f9be3e0f3a5a011a34fdd408d489bb03e8654e62eb8c6d5bfe3ef",
+  "raw_sha256": "f3b2ab45895d4039f3c2141583b2c2ed2e2f664f04e460060539180921e89552",
+  "quality_sha256": "33d277a7b6581ee2b88e64d4df7f0421a5e07cfb94461cbed5409dc0aec26bd8",
+  "summary_sha256": "ef384e7138f267186ebbe530aae6fa7d0ae137c4683f6fcbd97c4f08a1379379"
+}

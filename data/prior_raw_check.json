@@ -1,0 +1,245 @@
+{
+  "status": "PASS",
+  "raw_counts": {
+    "rows": 21753,
+    "physical_calls": 90542,
+    "rounds": 45271
+  },
+  "checks": 402183,
+  "failures": [],
+  "raw_sha256": "f3b2ab45895d4039f3c2141583b2c2ed2e2f664f04e460060539180921e89552",
+  "limits": [
+    "No title selector rerun and no unexecuted proposal reconstruction.",
+    "FT independently aggregated from quality records; original corpus/title-label replay relies on the packaged prior independent audit because external source volume is absent.",
+    "No new significance inference, reader EM/F1, or matched latency evaluation.",
+    "K grid is four points 10/20/30/50, not full integer range.",
+    "Public development cohort is historical descriptive evidence; it must remain separate from later source-screened cohorts."
+  ],
+  "meaning": "Prior saved-route replay receipt. Default bundled verification does not independently reconstruct raw rankings or original title labels.",
+  "later_query_mechanisms": {
+    "repeat2_100_50_50:q2": {
+      "executed": 2248,
+      "mode": "repeat",
+      "new_candidate_total": 0,
+      "new_gold_total": 0,
+      "at_k": {
+        "10": {
+          "wins": 40,
+          "losses": 96,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 40
+        },
+        "20": {
+          "wins": 34,
+          "losses": 183,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 34
+        },
+        "30": {
+          "wins": 21,
+          "losses": 188,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 21
+        },
+        "50": {
+          "wins": 18,
+          "losses": 106,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 18
+        }
+      }
+    },
+    "repeat3_50_50_50_50:q2": {
+      "executed": 633,
+      "mode": "new",
+      "new_candidate_total": 15157,
+      "new_gold_total": 9,
+      "at_k": {
+        "10": {
+          "wins": 13,
+          "losses": 42,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 13
+        },
+        "20": {
+          "wins": 7,
+          "losses": 77,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 7
+        },
+        "30": {
+          "wins": 12,
+          "losses": 54,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 12
+        },
+        "50": {
+          "wins": 13,
+          "losses": 25,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 13
+        }
+      }
+    },
+    "repeat3_50_50_50_50:q3": {
+      "executed": 633,
+      "mode": "repeat",
+      "new_candidate_total": 0,
+      "new_gold_total": 0,
+      "at_k": {
+        "10": {
+          "wins": 4,
+          "losses": 9,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 4
+        },
+        "20": {
+          "wins": 7,
+          "losses": 25,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 7
+        },
+        "30": {
+          "wins": 2,
+          "losses": 50,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 2
+        },
+        "50": {
+          "wins": 3,
+          "losses": 66,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 3
+        }
+      }
+    },
+    "stop50_50_50:q2": {
+      "executed": 633,
+      "mode": "new",
+      "new_candidate_total": 15157,
+      "new_gold_total": 9,
+      "at_k": {
+        "10": {
+          "wins": 13,
+          "losses": 42,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 13
+        },
+        "20": {
+          "wins": 7,
+          "losses": 77,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 7
+        },
+        "30": {
+          "wins": 12,
+          "losses": 54,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 12
+        },
+        "50": {
+          "wins": 13,
+          "losses": 25,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 13
+        }
+      }
+    },
+    "iter2_100_50_50:q2": {
+      "executed": 636,
+      "mode": "new",
+      "new_candidate_total": 12750,
+      "new_gold_total": 5,
+      "at_k": {
+        "10": {
+          "wins": 8,
+          "losses": 33,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 8
+        },
+        "20": {
+          "wins": 9,
+          "losses": 67,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 9
+        },
+        "30": {
+          "wins": 15,
+          "losses": 63,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 15
+        },
+        "50": {
+          "wins": 16,
+          "losses": 38,
+          "win_new_gold_acquisition": 1,
+          "win_ranking_promotion": 15
+        }
+      }
+    },
+    "iter3_50_50_50_50:q2": {
+      "executed": 633,
+      "mode": "new",
+      "new_candidate_total": 15157,
+      "new_gold_total": 9,
+      "at_k": {
+        "10": {
+          "wins": 13,
+          "losses": 42,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 13
+        },
+        "20": {
+          "wins": 7,
+          "losses": 77,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 7
+        },
+        "30": {
+          "wins": 12,
+          "losses": 54,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 12
+        },
+        "50": {
+          "wins": 13,
+          "losses": 25,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 13
+        }
+      }
+    },
+    "iter3_50_50_50_50:q3": {
+      "executed": 98,
+      "mode": "new",
+      "new_candidate_total": 1959,
+      "new_gold_total": 2,
+      "at_k": {
+        "10": {
+          "wins": 0,
+          "losses": 5,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 0
+        },
+        "20": {
+          "wins": 1,
+          "losses": 8,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 1
+        },
+        "30": {
+          "wins": 4,
+          "losses": 7,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 4
+        },
+        "50": {
+          "wins": 2,
+          "losses": 8,
+          "win_new_gold_acquisition": 0,
+          "win_ranking_promotion": 2
+        }
+      }
+    }
+  }
+}

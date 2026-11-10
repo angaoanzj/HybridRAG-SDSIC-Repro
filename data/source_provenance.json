@@ -1,0 +1,100 @@
+{
+  "format_version": 1,
+  "policy": "Only identifier/numeric evidence projections are distributed. No model weights, corpus text, question text, answer text or raw route-return archive is included.",
+  "sources": [
+    {
+      "role": "multiround_quality",
+      "original_filename": "quality_rows.jsonl.gz",
+      "sha256": "33d277a7b6581ee2b88e64d4df7f0421a5e07cfb94461cbed5409dc0aec26bd8",
+      "included_projection": {
+        "file": "data/multiround_quality.jsonl.gz",
+        "retained_fields": [
+          "id",
+          "arm",
+          "hops",
+          "physical_route_calls",
+          "executed_query_instances",
+          "supplementary_queries",
+          "requested_records",
+          "returned_records",
+          "metrics_after_round",
+          "at_k",
+          "gold_ranks"
+        ],
+        "excluded": "round_titles, stop_reason, new_title_counts, trajectory_digests; no question or answer text retained"
+      }
+    },
+    {
+      "role": "multiround_protocol",
+      "original_filename": "protocol.json",
+      "sha256": "d0966667fd0f9be3e0f3a5a011a34fdd408d489bb03e8654e62eb8c6d5bfe3ef",
+      "included_projection": "data/multiround_protocol.json: original paths and startup metadata omitted"
+    },
+    {
+      "role": "multiround_summary",
+      "original_filename": "summary.json",
+      "sha256": "ef384e7138f267186ebbe530aae6fa7d0ae137c4683f6fcbd97c4f08a1379379",
+      "included_projection": "data/multiround_expected.json"
+    },
+    {
+      "role": "multiround_completion",
+      "original_filename": "complete.json",
+      "sha256": "8171acb3a3257e7aa7c4c0ead7c83081ec88498ca08124c9676fca583b3613c7",
+      "included_projection": "data/original_completion.json; original hashes do not describe projected files"
+    },
+    {
+      "role": "optional_raw_returns",
+      "original_filename": "raw_rankings_and_calls.jsonl.gz",
+      "sha256": "f3b2ab45895d4039f3c2141583b2c2ed2e2f664f04e460060539180921e89552",
+      "included_projection": false
+    },
+    {
+      "role": "idf_2wiki",
+      "original_filename": "per_question_2wiki.jsonl.gz",
+      "sha256": "89d6b95fed4051a894f97d7b796b8e4bcf142e78c0427f2d24ded3859f4c6d06",
+      "included_projection": "data/idf_f2_records.jsonl.gz: only selected method identifiers, validity and first complete ranks"
+    },
+    {
+      "role": "idf_hotpotqa",
+      "original_filename": "per_question_hotpotqa.jsonl.gz",
+      "sha256": "15eeb4edb9321ba20c57dc874d3dee7b19fb2a09a2e41f7b5d7cc43e770d4f8f",
+      "included_projection": "data/idf_f2_records.jsonl.gz: only selected method identifiers, validity and first complete ranks"
+    },
+    {
+      "role": "idf_musique",
+      "original_filename": "per_question_musique.jsonl.gz",
+      "sha256": "96a52998896a9c1ecdb6442164f3c63b8c0c1e4d05ac260b50651f7f96891478",
+      "included_projection": "data/idf_f2_records.jsonl.gz: only selected method identifiers, validity and first complete ranks"
+    },
+    {
+      "role": "idf_curves",
+      "original_filename": "primary_fullpool_curves_K1_400.csv",
+      "sha256": "d4afd8accc10c199c84e316e77f6577f2fa40447b4d7da5e1ba5be99b53d9bd5",
+      "included_projection": "data/idf_expected.json: nine K=2 rows only"
+    },
+    {
+      "role": "sampling_ids",
+      "original_filename": "primary_ordered_ids.json",
+      "sha256": "ecd8bd5a933fb3688700853307bb33df29767464df06c00c2774b1379930d6c4",
+      "included_projection": "data/musique_sampling.json: MuSiQue identifiers only"
+    },
+    {
+      "role": "sampling_audit",
+      "original_filename": "idf8_f2_musique_flow.json",
+      "sha256": "d4671165e0adf2f56dc05a89545b4889f3c638fce4a3f963b9ff3e85f38fdba0",
+      "included_projection": "data/musique_sampling.json: count/hash/ID projection; no questions or local paths"
+    },
+    {
+      "role": "official_musique_source",
+      "original_filename": "musique_data_v1.0.zip",
+      "sha256": "98f839bf2fd5319f5c688aed77901a6d5c30b3b9f9f691ab9a8ecafb045ee0cd",
+      "included_projection": false
+    },
+    {
+      "role": "statistics_counts",
+      "original_filename": "statistics_inputs.json",
+      "sha256": "ade51c78581c9778d063b3a69d4bee28138705a7269e811dbcde047619721aba",
+      "included_projection": "data/statistics_inputs.json"
+    }
+  ]
+}
