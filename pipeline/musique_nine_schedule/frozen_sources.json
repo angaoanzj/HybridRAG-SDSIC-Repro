@@ -1,0 +1,18 @@
+{
+  "retrieval_backends.py": {
+    "source": "frozen/retrieval_backends.py",
+    "sha256": "9ad1e239675db78509063f8786766d18b57a4ef13710e609501596ff6f4e3af5"
+  },
+  "run_retrieval.py": {
+    "source": "frozen/run_retrieval.py",
+    "sha256": "b231216f45e4af22bdd6409874bc27165ec7882904f956a9a9f6524f0c98ee62"
+  },
+  "query_expansion.py": {
+    "source": "frozen/query_expansion.py",
+    "sha256": "fddae2a25744ffcd9c44968e045da36a950a56d5014fe1b46ad55413f225e3bc"
+  },
+  "expansion_variants.py": {
+    "source": "frozen/expansion_variants.py",
+    "sha256": "5c1be734e8e742fba137c167dbb29d5a4dd890607011933d8b3f202d88115740"
+  }
+}

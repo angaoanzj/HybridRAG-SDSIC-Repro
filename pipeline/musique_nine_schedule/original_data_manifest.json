@@ -1,0 +1,18 @@
+{
+  "source": "MuSiQue-Ans v1.0 official dev; HF mirror with cross-mirror LFS SHA256 match; Google Drive download unavailable",
+  "source_sha256": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b",
+  "queries": 2417,
+  "hops": {
+    "2": 1252,
+    "3": 760,
+    "4": 405
+  },
+  "documents": 21100,
+  "unique_titles": 17629,
+  "raw_contexts": 48315,
+  "dedup": "exact title + NUL + exact paragraph text; all dev contexts, no label filtering",
+  "corpus_sha256": "231fe93795b872b0b0e0f480e29f118b71ec771a8b5f75c77f5603ab85d5a0e7",
+  "public_sha256": "8d119f4267d73c1798ce136427b63c8c4b240ae3345d976e298e9ec2c4145d89",
+  "labels_sha256": "1571611e0f58df808dc237f16a8d4db58c8502aff71597812ccce6e70180cb92",
+  "sentences": "deterministic split after . ! ? plus whitespace, exact substrings; no gold sentence access"
+}

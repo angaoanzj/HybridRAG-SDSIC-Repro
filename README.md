@@ -1,5 +1,9 @@
 # HybridRAG case study: saved-result verification
 
+## Recovered experiment code
+
+The [pipeline directory](pipeline/README.md) now includes recovered retrieval, expansion, confirmation training, reader generation, scoring orchestration and analysis code. It also contains the exact nine-schedule MuSiQue runner used by the paper, verified against the recorded experiment hash; the earlier four-arm implementation is identified separately. The root verifier and its data remain unchanged, and the immutable revision cited by the paper remains accessible.
+
 This companion supplies portable code and numeric evidence for the fixed-pipeline multi-hop case study. Run it with Python **3.9 or newer**; only the standard library is required. The default command performs no network access and does not load a model.
 
 ```sh

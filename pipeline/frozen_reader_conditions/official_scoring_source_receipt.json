@@ -1,0 +1,30 @@
+{
+  "retrieved_at_utc": "2026-11-08T14:53:00.401996+00:00",
+  "sources": [
+    {
+      "repo": "hotpotqa/hotpot",
+      "commit": "3635853403a8735609ee997664e1528f4480762a",
+      "file": "hotpot_evaluate_v1.py",
+      "local_file": "hotpot_evaluate_v1.py",
+      "url": "https://raw.githubusercontent.com/hotpotqa/hotpot/3635853403a8735609ee997664e1528f4480762a/hotpot_evaluate_v1.py",
+      "sha256": "d35fc91a6db21d791dbdda11daf3856e9359f5701d54e3eefba20d88fecc02c0"
+    },
+    {
+      "repo": "Alab-NII/2wikimultihop",
+      "commit": "13800e5be57df1b4040b9b1588c6c811779e69e9",
+      "file": "2wikimultihop_evaluate.py",
+      "local_file": "2wikimultihop_evaluate.py",
+      "url": "https://raw.githubusercontent.com/Alab-NII/2wikimultihop/13800e5be57df1b4040b9b1588c6c811779e69e9/2wikimultihop_evaluate.py",
+      "sha256": "854b03c487608286d6381379eb32e46d9b845493527d1fe1951d0bf4ec923a40"
+    },
+    {
+      "repo": "Alab-NII/2wikimultihop",
+      "commit": "13800e5be57df1b4040b9b1588c6c811779e69e9",
+      "file": "2wikimultihop_evaluate_v1.1.py",
+      "local_file": "2wikimultihop_evaluate_v1_1.py",
+      "url": "https://raw.githubusercontent.com/Alab-NII/2wikimultihop/13800e5be57df1b4040b9b1588c6c811779e69e9/2wikimultihop_evaluate_v1.1.py",
+      "sha256": "7c09ee2ec98c7ecb57df79eb68dba22eb381ab58d50e730dfcefafb4dda31458"
+    }
+  ],
+  "primary_answer_reference": "Current frozen canonical answer field; exact match/token F1 from original official scripts. v1.1 answer-ID alias expansion is a distinct scoring condition, not silently mixed."
+}
