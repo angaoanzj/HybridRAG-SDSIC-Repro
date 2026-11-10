@@ -503,6 +503,18 @@
       "source_sha256": "c587acd4be821d7e7a10ee0a68b9f581ad55e7a61152f12434ef9ae26710be4d",
       "published_sha256": "c587acd4be821d7e7a10ee0a68b9f581ad55e7a61152f12434ef9ae26710be4d",
       "local_path_redacted": false
+    },
+    {
+      "path": "pipeline/figure_sources/HybridRAG_\u7ed3\u8bba\u4e0e\u56fe\u8868\u5b8c\u6574\u6574\u5408_20261109/build_manuscript_figures.py",
+      "source_sha256": "22fe050d52ac746431bc01755369bb481f425cab7e16951f075fa61f602f03d8",
+      "published_sha256": "22fe050d52ac746431bc01755369bb481f425cab7e16951f075fa61f602f03d8",
+      "local_path_redacted": false
+    },
+    {
+      "path": "pipeline/figure_sources/HybridRAG_\u72ec\u7acb\u786e\u8ba4\u4e0e\u8bba\u6587\u4fee\u8ba2_20261110/manuscript/build_confirmation_materials.py",
+      "source_sha256": "d1d5ecbfd3fa06949cd86eec13841f21b92c0867a6f86ab05587c1fcdb053387",
+      "published_sha256": "d1d5ecbfd3fa06949cd86eec13841f21b92c0867a6f86ab05587c1fcdb053387",
+      "local_path_redacted": false
     }
   ],
   "metadata_redactions": [
